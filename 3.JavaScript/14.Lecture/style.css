@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(56, 54, 54);
+  color: white;
+}
+
+#heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#profile-pic-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#avatar {
+  height: 150px;
+  width: 200px;
+  filter: brightness();
+  padding: 10px;
+  align-items: center;
+}
