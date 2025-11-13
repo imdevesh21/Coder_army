@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #fff;
+}
+
+h1 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+
+#parent {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  /* align-items: center; center horizontally */
+  /* justify-content: space-between; control vertical space */
+  /* height: 100vh; full screen height for visible spacing */
+  /* background-color: #111; black theme */
+  /* padding: 20px; */
+  /* gap: 15px; modern way to add space between items */
+/* } */
+
+
+
+/* .child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 200px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  font-family: Poppins, sans-serif;
+} */
+
+/* individual colors */
+#child1 { background-color: red; }
+#child2 { background-color: blue; }
+#child3 { background-color: green; }
+#child4 { background-color: orange; }
+#child5 { background-color: aqua; }
+
+#grandparent, #parent, #child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+#grandparent {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  background-color: red;
+
+}
+
+#parent {
+  padding: 10px;
+  height: 50%;
+  width: 50%;
+  background-color: orange;
+}
+
+#child {
+
+  padding: 10px;
+  height: 50%;
+  width: 50%;
+  background-color: blue;
+}
