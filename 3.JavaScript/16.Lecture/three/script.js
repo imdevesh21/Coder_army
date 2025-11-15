@@ -5,13 +5,11 @@ const inputFieldEl = document.querySelector('#result');
 for(let button of buttonEl){
   button.addEventListener("click", ()=>{
     const buttonValue = button.textContent;
-    if(buttonValue === "C"){
+    if(buttonValue === "C")
       clearResult();
-    } else if(buttonValue === "="){
+    else if(buttonValue === "=")
       calculateResult();
-    } else {
-      appendValue(buttonValue);
-    }
+    else appendValue(buttonValue);
   })
 }
 
